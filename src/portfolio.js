@@ -347,27 +347,20 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-// export {
-//   illustration,
-//   greeting,
-//   socialMediaLinks,
-//   skillsSection,
-//   educationInfo,
-//   techStack,
-//   workExperiences,
-//   openSource,
-//   bigProjects,
-//   achievementSection,
-//   blogSection,
-//   talkSection,
-//   podcastSection,
-//   contactInfo,
-//   twitterDetails
-// };
-
 export {
   illustration,
   greeting,
   socialMediaLinks,
   skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails
 };
