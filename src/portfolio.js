@@ -11,26 +11,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Biswajit Mohapatra",
+  title: "Hi all, I'm Biswajit",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Data Engineer having an experience of building data pipelines on AWS with Python/Pyspark & deploying it through droneDeploy and terraform."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1LJl-77YeYZYh21_qiXgp3jRDu9dwwVsS/edit?usp=sharing&ouid=106689220376154908089&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/biswajit-alti/",
+  linkedin: "https://www.linkedin.com/in/biswajit-mohapatra/",
+  gmail: "biswajitmohapatra0@gmail.com",
+  facebook: "https://www.facebook.com/biswajit.mohapatra1",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -43,11 +40,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design, develop & deploy data pipelines in cloud infrastructure"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Scalable data pipelines able to handle both batch and streaming load."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of data pipelines in AWS with various IAAS service, orchestration & deployment tools such as Terraform, Airflow, droneDeploy etc."
     )
   ],
 
@@ -56,32 +53,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Airflow",
+      fontAwesomeClassname: "fab fa-airflow"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "CircleCi",
+      fontAwesomeClassname: "fab fa-CircleCi"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "droneDeploy",
+      fontAwesomeClassname: "fab fa-droneDeploy"
     },
     {
       skillName: "npm",
@@ -96,8 +81,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "terraform",
+      fontAwesomeClassname: "fas fa-terraform"
     },
     {
       skillName: "python",
@@ -362,20 +347,27 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
+// export {
+//   illustration,
+//   greeting,
+//   socialMediaLinks,
+//   skillsSection,
+//   educationInfo,
+//   techStack,
+//   workExperiences,
+//   openSource,
+//   bigProjects,
+//   achievementSection,
+//   blogSection,
+//   talkSection,
+//   podcastSection,
+//   contactInfo,
+//   twitterDetails
+// };
+
 export {
   illustration,
   greeting,
   socialMediaLinks,
   skillsSection,
-  educationInfo,
-  techStack,
-  workExperiences,
-  openSource,
-  bigProjects,
-  achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
-  contactInfo,
-  twitterDetails
 };
